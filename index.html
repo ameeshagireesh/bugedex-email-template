@@ -7,10 +7,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Bugédex </title>
     <style>
-
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .parent {
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: contain;
+            background-image: url("https://static.csivit.com/bugedex/bg.png");
+            padding-bottom: 50px;
+        }
+        
+        .center-rect {
+            background-repeat: no-repeat;
+            width: 600px;
+            border-radius: 50px;
+            align-items: center;
+            padding: 3%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
+            background-image: url("https://static.csivit.com/bugedex/box.png");
+        }
+        
+        .txt {
+            position: relative;
+            color: white;
+            padding: 0%;
+            font-family: 'Roboto', sans-serif;
+            width: 49ch;
+            font-size: 1.2rem;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .left-txt {
+            position: relative;
+            color: white;
+            padding-left: 8%;
+            padding-right: 2%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.98rem;
+            text-align: left;
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .reg-butt {
+            width: 170px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            padding-bottom: 22px;
+        }
+        
+        .logo {
+            padding-top: 50px;
+            width: 539px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .date {
+            margin-bottom: 20px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .riddler-link,
+        .riddler-link:visited,
+        .riddler-link:active {
+            color: #DBF429;
+        }
+        
+        .socials-link,
+        .socials-link:visited,
+        .riddler-link:active {
+            color: white;
+        }
+        
+        .social-icon {
+            transform: translateY(2.5px);
+            width: 1rem;
+        }
+        
+        .label {
+            width: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+        .csi-logo {
+            width: 220px;
+            margin-top: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 50px;
+        }
+        
+        @media screen and (max-width: 700px) {
+            .center-rect {
+                width: 80vw;
+                padding: 7% 5%;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+            .logo {
+                width: 71.5vw;
+                padding-top: 25px;
+            }
+            .date {
+                width: 35.7vw;
+            }
+            .txt {
+                font-size: 2.8vw;
+                width: 45ch;
+            }
+            .reg-butt {
+                width: 24.2vw;
+            }
+            .left-txt {
+                font-size: 2.8vw;
+            }
+            .social-icon {
+                width: 0.6rem;
+                transform: translateY(0.8px);
+            }
+            .csi-logo {
+                width: 110px;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     </style>
+
 </head>
 
-<body></body>
+<body>
+    <div class="parent">
+        <div class="logo">
+            <a href="https://csivitu.typeform.com/bugedex">
+                <img src="https://static.csivit.com/bugedex/bugedex.png"> </a>
+        </div>
+        <div class="date">
+            <img src="https://static.csivit.com/bugedex/date.png">
+        </div>
+        <div class="center-rect">
+            <p class="txt">
+                We at Computer Society of India-VIT invite you to attend our free, virtual, hands-on workshop, Bugédex.
+            </p>
+            <p class="txt">
+                Computer bugs can cause security issues, but with the right approach, not only do you get to elevate safety, 
+                but stand a chance to be rewarded. Grab the opportunity to interact with cybersecurity experts from CloudSEK 
+                and learn about different types of bugs and the threats they pose to systems and organizations, all from scratch.
+            </p>
+            <p class="txt">
+                Bugédex consists of two major parts:
+            </p>
+            <p class="txt">
+                <b>Workshop: </b>An interactive workshop with cybersecurity experts from CloudSEK.
+            </p>
+            <p class="txt">
+                <b>Competition:</b> Report your findings to help the community from your experience, and stand a chance to win amazing prizes.
+            </p>
+            <div class="reg-butt" style="align-items: center;">
+                <a href="https://csivitu.typeform.com/bugedex">
+                    <img src="https://static.csivit.com/bugedex/register.png"> </a> <br>
+            </div>
+            <div style="padding-bottom: 30px;">
+                <div style="width: 75%; float: left;">
+                    <p class="left-txt">
+                        Join us on <b>October 3rd</b> at <b>noon</b> and get to know all the ins and outs of bug bounty. 
+                        You don’t want to miss out! You can find us on other social media pages: <br />
+                        <a href="https://www.linkedin.com/company/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/linkedin.png" class="social-icon"> LinkedIn
+                        </a> <br>
+                        <a href="https://www.instagram.com/csivitu" class="socials-link">
+                            <img src="https://static.csivit.com/riddler-21/ig.png" class="social-icon"> Instagram
+                        </a> <br> We can't wait to see you there!
+                    </p>
+                </div>
+                
+            </div>
+            <div class="csi-logo">
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
