@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Bugédex </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .parent {
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-size: cover;
+            background-image: url("https://static.csivit.com/bugedex/bg.png");
+            padding-bottom: 50px;
+            background-repeat: repeat-x;
+            background-repeat: repeat;
+        }
+        
+        .center-rect {
+            background-repeat: no-repeat;
+            width: 600px;
+            align-items: center;
+            padding: 3%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
+            background-image: url("https://static.csivit.com/bugedex/box.png");
+            background-size: contain;
+            background-repeat: round;
+        }
+        
+        .txt {
+            position: relative;
+            color: white;
+            padding: 0%;
+            font-family: 'Roboto', sans-serif;
+            width: 45ch;
+            font-size: 1.2rem;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+        
+        .left-txt {
+            position: relative;
+            color: white;
+            padding-left: 15%;
+            width: 31ch;
+            padding-right: 15%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.99rem;
+            text-align: justify;
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: 50px;
+            align-items: center;
+            display: block;
+            padding-bottom: 10%;
+        }
+        
+        .reg-butt {
+            width: 170px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1px;
+            padding-bottom: 10px;
+        }
+        
+        .logo {
+            padding-top: 0px;
+            width: 539px;
+            margin-left: auto;
+            margin-right: auto;
+            /* padding-bottom: 15%; */
+        }
+        
+        .date {
+            margin-bottom: 20px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .riddler-link,
+        .riddler-link:visited,
+        .riddler-link:active {
+            color: #DBF429;
+        }
+        
+        .socials-link,
+        .socials-link:visited,
+        .riddler-link:active {
+            color: white;
+        }
+        
+        .social-icon {
+            transform: translateY(2.5px);
+            width: 1rem;
+        }
+        
+        .label {
+            width: 70%;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 20px;
+            padding-left: 15px;
+            display: block; 
+        }
+        
+        .csi-logo {
+            width: 220px;
+            margin-top: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: 70px;
+        }
+        
+        @media screen and (max-width: 700px) {
+            .center-rect {
+                width: 80vw;
+                padding: 7% 5%;
+                border-radius: 25px;
+                border-width: 1px;
+            }
+            .logo {
+                width: 71.5vw;
+                padding-top: 25px;
+            }
+            .date {
+                width: 35.7vw;
+            }
+            .txt {
+                font-size: 2.8vw;
+                width: 45ch;
+            }
+            .reg-butt {
+                width: 24.2vw;
+            }
+            .left-txt {
+                font-size: 1.9vw;
+                padding-right: 5%;
+                padding-left: 10px;
+            }
+            .social-icon {
+                width: 0.6rem;
+                transform: translateY(0.8px);
+            }
+            .csi-logo {
+                width: 110px;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .label {
+            width: 15%;
+            margin-top: auto;
+            margin-bottom: auto;
+            /* display: block; */
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <div class="parent">
+            <br />
+            <div class="logo">
+                <a href="https://csivitu.typeform.com/bugedex">
+                    <img src="https://static.csivit.com/bugedex/bugedex.png"> </a>
+            </div>
+            <br />
+            <div class="date">
+                <img src="https://static.csivit.com/bugedex/date.png">
+            </div>
+            <div class="center-rect">
+                <p class="txt">
+                    We at CSI-VIT invite you to attend our free hands-on workshop, BugéDex. 
+                </p>
+                <p class="txt">
+                    The right approach to solving computer bugs can not only elevate safety, but 
+                    give you a chance to be rewarded. Learn from cybersecurity experts at CloudSEK 
+                    and find out about different kinds of bugs and the threats they pose to systems 
+                    & organizations, all from scratch. 
+                </p>
+                <p class="txt">
+                    Bugédex consists of two major parts:
+                </p>
+                <p class="txt">
+                    <b>Workshop: </b>An interactive workshop with cybersecurity experts from CloudSEK. <br />
+                    <b>Competition:</b> Write a blog on your takeaways from the workshop to help the 
+                    community from your experience, and stand a chance to win amazing prizes like iPad 9th Gen, 
+                    OnePlus Watch, Google Pixel Buds, Amazon Alexa and so much more!
+                </p>
+                <p class="txt">
+                    We are hoping to increase awareness about Bug Bounties in the community, and would 
+                    appreciate if you supported us in the same by encouraging members of your organisation 
+                    to attend the event.
+                </p>
+                <div class="reg-butt" style="align-items: center;">
+                    <a href="https://csivitu.typeform.com/bugedex">
+                        <img src="https://static.csivit.com/bugedex/register.png"> </a> <br>
+                </div>
+                <div style="padding-bottom: 30px;">
+                    <div style="width: 65%; float: left;">
+                        <p class="left-txt">
+                            Join us on <b>October 3rd at noon</b> and get to know the ins and outs of bug bounty. 
+                            You don’t want to miss out! You can find us on other social media pages: <br />
+                            <a href="https://www.linkedin.com/company/csivitu" class="socials-link">
+                                <img src="https://static.csivit.com/riddler-21/linkedin.png" class="social-icon"> LinkedIn
+                            </a> <br>
+                            <a href="https://www.instagram.com/csivitu" class="socials-link">
+                                <img src="https://static.csivit.com/riddler-21/ig.png" class="social-icon"> Instagram
+                            </a> <br> We can't wait to see you there!
+                        </p>
+                    </div>
+                    <div class="label" style="width: 20%; float: right; height:137.45px;">
+                        <a href="https://dare2compete.com/o/XlbcYUH">
+                            <img src="https://static.csivit.com/bugedex/qr_code.png"> </a>
+                    </div> 
+                </div>
+                <div class="csi-logo">
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src = "https://static.csivit.com/bugedex/grass.png">
+        </div>
+    </div>
+</body>
+
+</html>
